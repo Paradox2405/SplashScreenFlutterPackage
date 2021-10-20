@@ -83,7 +83,7 @@ class SplashScreen extends StatefulWidget {
     this.loadingTextPadding,
     this.imageBackground,
     this.gradientBackground,
-    required this.useLoader,
+    this.useLoader,
     this.routeName,
   })  : assert(
           routeName == null ||
